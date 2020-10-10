@@ -1,0 +1,33 @@
+div.wrapper {
+   margin-left: 7%;
+}
+div.produts {
+   
+    background-color: #777;
+    display: block;
+    
+    float: left;
+    width: 20%;
+    height: 20vh;
+    margin: 20px;
+}
+div.produts div.zdj {
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 18vw;
+    height: 15vh;
+    background-color: #999;
+    border: black 2px solid;
+}
+div.produts h1 {
+    
+    
+    text-align: center;
+}
+div.produts span {
+ font-size: 25px;
+ padding-left: 25px;
+}
+div.produts:hover {
+opacity: 0.8;
+}

@@ -1,0 +1,39 @@
+div.profile {
+    position: relative;
+    width: 40%;
+    height: 40vh;
+    background-color: #888;
+    left: 30%;
+}
+div.avatar {
+    position: absolute;
+    width: 40%;
+    height: 20vh;
+    left: 30%;
+    background-color: white;
+}
+div.profile h1 {
+    position: absolute;
+    top: 52%;
+    left: 40%;
+}
+div.profile h3 {
+    position: absolute;
+    top: 64%;
+    left: 43%;
+}
+div.profileAll {
+    background-color: #999;
+    height: 90vh;
+   
+}
+div.kupiony {
+    text-align: justify;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    border-top: black 3px solid;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+    padding-left: 100px;
+}

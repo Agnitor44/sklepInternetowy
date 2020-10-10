@@ -1,0 +1,29 @@
+ div.product {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 10vh;
+    height: 70vh;
+    background-color: #777;
+    border: black 4px solid;
+}
+div.product h1 {
+    position: absolute;
+    top: 2%;
+    left: 45%;
+    right: 45%;
+}
+div.product button {
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+div.product div.zdjecie {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 80%;
+    height: 60%;
+    background-color: #999;
+
+}

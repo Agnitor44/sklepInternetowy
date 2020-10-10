@@ -1,0 +1,66 @@
+div.cart {
+    float: right;
+    width: 30%;
+    height: 80vh;
+    background-color: #333;
+    border: 4px black solid;
+}
+
+div.cart h1.tyt {
+    text-align: center;
+    color: white;
+    border-bottom: white 2px solid;
+}
+
+ section.list {
+    position: relative;
+    width: 100%;
+    height: 8vh;
+    background-color: #777;
+    margin: 2% 0
+}
+section.list div.obrazek {
+    position: absolute;
+    border: 2px solid black;
+    width: 30%;
+    height: 6vh;
+    right: 40%;
+    top: 10%;
+    background-color: #999;
+}
+section.list h1.all {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+div.end {
+    border-bottom: red solid 2px;
+}
+span.allall {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    right: 1%;
+    color: white;
+    
+}
+div.cart button {
+   width: 25%;
+   margin-right: 70%;
+   margin-top: 2%;
+    
+}
+div.cart button.delet {
+    font-size: 15px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    right: -70%;
+}
+div.cart button.delet h3 {
+    position: absolute;
+    font-size: 15px;
+    top: 10%;
+    left:25%;
+}

@@ -1,0 +1,60 @@
+nav.main {
+    background-color: #666;
+    border-top: solid 4px black;
+    border-bottom: solid 4px black;
+}
+nav.main ul {
+    padding: 10px 0;
+    max-width: 1024px;
+    margin: 0 auto;
+    list-style: none;
+
+}
+nav.main li.nawigacja {
+    display: inline-block;
+}
+nav.main li.nawigacja a {
+   
+    margin-right: 30px;
+    display: inline-block;
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    border: 1px solid white;
+    transition: 0.4s;
+
+    
+}
+nav.main li.nawigacja a:hover {
+    color:chartreuse;
+    border: solid 1px chartreuse;
+}
+.active {
+   background-color: #333;
+}
+
+
+  button {
+      background-color: #777;
+    margin-right: 30px;
+    float: right;
+    display: inline-block;
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    border: 1px solid white;
+    transition: 0.4s;
+  }
+  h1.hajsy {
+    position: absolute;
+     left: 45%;
+     top: 3%;
+     color: white;
+     
+  }
